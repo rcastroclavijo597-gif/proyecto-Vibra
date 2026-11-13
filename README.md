@@ -4,6 +4,12 @@ Proyecto web en **HTML, CSS y JavaScript puro** organizado con el patrón **MVC 
 No necesita instalar nada: abre `index.html` en el navegador (doble clic) y listo.
 Los datos se guardan en el `localStorage` del navegador.
 
+## API REST (para Postman)
+
+La carpeta `api/` tiene la API del proyecto en Node.js (sin dependencias).
+Arranca con `cd api` y `node server.js` → `http://localhost:3000`.
+Importa `Vibra-API.postman_collection.json` en Postman. Guía completa: [api/README.md](api/README.md).
+
 ## Datos iniciales
 
 El proyecto empieza **vacío**: no trae clientes ni eventos fijos. Todo lo que aparece lo crean los usuarios.
